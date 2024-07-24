@@ -1,0 +1,14 @@
+
+.footer{
+    background-color: #0B0B0B;
+    display: inline-flex;
+    height: 60px;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer p{
+    margin: auto;
+    text-align: center;
+}
