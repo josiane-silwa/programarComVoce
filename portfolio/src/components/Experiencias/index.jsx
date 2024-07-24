@@ -1,11 +1,24 @@
-import React from 'react'
+
+import React, { useState } from 'react';
+import experiencias from '../../data/data.js'
+import AcordionEsperiences from './AcordionExperiences.jsx'
+
 
 const Experiencias = () => {
-  return (
-    <div>
-      <h1>Experiencias</h1>
+
+  return(
+
+    <div className="container">
+      {experiencias.map((item) => (
+        <AcordionEsperiences funcao={item.funcao} key={item.id}>
+        <span>{item.descricao}</span>
+        <span>{item.competencias}</span>
+      </AcordionEsperiences>
+      ))}
     </div>
   )
 }
+
+
 
 export default Experiencias
