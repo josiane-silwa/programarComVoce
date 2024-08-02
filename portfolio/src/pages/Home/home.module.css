@@ -1,0 +1,91 @@
+.home {
+    margin-top: 30px;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .title_section {
+    font-family: Preahvihear;
+    font-size: 32px;
+    font-weight: 400;
+    color: #BF91F9;
+  }
+  
+  .title_name {
+    font-family: Preahvihear;
+    font-size: 64px;
+    color: #BF91F9;
+  }
+  
+  .title_description {
+    font-size: 24px;
+  }
+  
+  .buttons {
+    margin-top: 55px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home_button_github {
+    background-color: #BF91F9;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: .2s;
+  }
+  
+  .home_button_github:hover {
+    transform: scale(.96);
+    transition: .2s;
+  }
+  
+  .home_button_github a {
+    text-decoration: none;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .home_img {
+    width: 400px;
+    height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+  }
+  
+  .home_img::before {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    right: -1px;
+    bottom: -1px;
+    z-index: -1;
+    background: linear-gradient(40deg, #BF91F9, #BF91F9);
+    filter: blur(60px);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .home_img img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  @media (max-width: 425px) {
+
+  }

@@ -1,0 +1,23 @@
+.home_button_top {
+  position: fixed;
+  top: 40rem;
+  right: 25px;
+  border-radius: 50%;
+  border: 2px solid #0e0e0e;
+  background-color: #BF91F9;
+  opacity: 0.8;
+  height: 40px;
+  width: 40px;
+  transition: 0.2s;
+  border: none;
+}
+.home_button_top:hover{
+ opacity: 1;
+ transition: 0.2s;
+ box-shadow: 0 0 20px #BF91F9;
+}
+
+.home_button_top a {
+  text-decoration: none;
+  color: #0e0e0e;
+}

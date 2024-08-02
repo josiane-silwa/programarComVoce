@@ -1,0 +1,72 @@
+.about_me {
+    background-color: #0e0d0d;
+  }
+  
+  .title_section {
+    font-family: Preahvihear;
+    font-size: 32px;
+    font-weight: 400;
+    color: #BF91F9;
+  }
+  
+  .img_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img_profile img {
+    width: 367px;
+    height: 367px;
+    margin: 100px 0;
+    border-left: 5px solid #00D2DF;
+    border-radius: 4px;
+  }
+  
+  .description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #C4C4C4;
+  }
+  
+  .about_me_social_links {
+    display:  flex;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0;
+  }
+  
+  .about_me_social_links a {
+    transition: .2s;
+  }
+  
+  .about_me_social_links a:hover {
+    transform: translateY(-5px);
+    transition: .2s;
+  }
+  
+  .buttons_about {
+    margin-top: 1rem;
+  }
+  
+  .curriculum_btn {
+    background-color: #BF91F9;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inter;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px 10px 40px;
+    transition: .2s;
+  }
+  
+  .curriculum_btn:hover {
+    transform: scale(.96);
+    transition: .2s;
+  }
+  
+  .curriculum_btn a {
+    text-decoration: none;
+    color: #0B0B0B;
+  }
