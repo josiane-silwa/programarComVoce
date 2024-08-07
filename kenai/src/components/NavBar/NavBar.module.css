@@ -1,0 +1,9 @@
+
+.navbarContainer{
+    display: inline-flex;
+    height: 81px;
+    width: 360px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
