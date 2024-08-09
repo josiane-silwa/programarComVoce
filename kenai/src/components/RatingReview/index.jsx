@@ -1,26 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { FaStar } from 'react-icons/fa'
+import './Rating.module.css'
 
-const RatingReview = ({ rating, setRating }) {
+const RatingReview = ( ) => {
+  const [rating, setRating] = useState(null)
+  const [hover, setHover] = useState(null)
+
   return (
     <div>
-      {[1, 2, 3, 4, 5].map((star) => {
-        return (  
-          <span
-            className='start'
-            style={{
-              cursor: 'pointer',
-              color: rating >= star ? 'gold' : 'gray',
-              fontSize: `35px`,
-            }}
-            onClick={() => {
-              setRating(star)
-            }}
-          >
-            {' '}
-            ★{' '}
-          </span>
-        )
-      })}
+      {[...Array(5)].map( (star, index) => {
+        const currentRating = index + 1
+          return (
+            <>
+              <label>
+                <input 
+                  type='radio' 
+                  name='rating' 
+                  value={currentRating} 
+                  onClick={() => setRating(currentRating)}
+                />
+
+                <FaStar className='star' 
+                  size={20} 
+                  color={ currentRating <= ( hover || rating) ? "#FFA634" : "grey" }
+                  onMouseEnter={() => setHover(currentRating)}
+                  onMouseLeave={() => setHover(null)}
+                />
+              </label>
+            </>
+          )
+        }
+      )}
     </div>
   )
 }

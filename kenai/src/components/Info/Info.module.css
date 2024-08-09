@@ -1,0 +1,25 @@
+.infoRating{
+    display: inline-flex;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoClassificacao{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    padding-top: 5px;
+    color: #FFA634;
+    border-radius: 0 8px;
+}
+
+.infoRating p{
+    padding: 2px;
+}
+
+.infoClock{
+    padding-left: 10px;
+    width: 50px;
+    margin-top: 4px;
+}

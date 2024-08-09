@@ -1,11 +1,11 @@
 import React from 'react'
 import Info from '../Info'
 import Details from '../Details'
+import styles from './Frame.module.css'
 
 const Frame = () => {
   return (
-    <div>
-      <h2>Hello Frame</h2>
+    <div className={styles.frame}>
       <Info />
       <Details />
     </div>
