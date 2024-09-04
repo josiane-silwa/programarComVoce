@@ -5,6 +5,7 @@
     margin-bottom: 20px;
     margin-top: 20px;
     color: #FFFFFF;
+    margin-left: 10px;
 }
 .detail h1{
     padding: 0, 10px;
@@ -35,4 +36,6 @@
     font-size: 16px;
     line-height: 21.79px;
     font-weight: 600px;
+    margin-top: 30px;
+    margin-left: 15px;
 }

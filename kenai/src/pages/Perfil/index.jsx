@@ -1,5 +1,5 @@
 import React from 'react'
-import Users from '../../components/Users'
+import Users from '../Users'
 import Header from '../../components/Header'
 
 const Perfil = () => {

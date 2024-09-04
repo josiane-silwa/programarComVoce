@@ -1,0 +1,10 @@
+.frame{
+    height: 803px;
+    width: 312px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.carousel{
+    margin-top: 170px;
+}

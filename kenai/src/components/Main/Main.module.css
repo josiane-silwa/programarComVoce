@@ -1,8 +1,13 @@
 .mainContainer{
-    background-color: #2F3329;
-    height: 884px;
+    background-color: black;
+    /*
+    height: 580px;
     width: 360px;
     background-image: url('../../assets/img/batman-begins.jpg'); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+}
+
+.carousel-container{
+    background-color: black;
 }

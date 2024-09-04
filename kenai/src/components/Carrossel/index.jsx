@@ -1,16 +1,32 @@
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/thumbs'
+//import './App.css'
+import CarouselThumbs from "./CarouselThumbs"
+import { productImages } from '../../assets/'
 import React from 'react'
-import img1 from '../../assets/img/shang-chi.png'
-import img2 from '../../assets/img/wishDragon.png'
-import styles from './Carrossel.module.css'
-import RatingReview from '../RatingReview'
 
-const Carrossel = () => {
+const index = () => {
+
   return (
-    <div className={styles.imgContainer}>
-      <div><img src={img1} alt="" /><RatingReview/></div>
-      <div><img src={img2} alt="" /></div>
-    </div>
+        <div style={{
+          height: '100vh',
+          //width: '400px',
+          paddingTop: '120px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          margin: 'auto'
+        }}>
+          <div style={{
+                    width: '400px',
+                    backgroundColor: '#fff',
+                    padding: '20px'
+                }}>
+            <CarouselThumbs images={productImages}/>
+          </div>
+        </div>
   )
 }
 
-export default Carrossel
+export default index

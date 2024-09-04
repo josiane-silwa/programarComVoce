@@ -4,13 +4,14 @@ import Header from "../Header"
 import ListFilms from "../ListFilms"
 import NavBar from "../NavBar"
 import styles from './Main.module.css'
+import Carrossel from '../Carrossel/index'
 
 const Main = () => {
   return (
     <div className={styles.mainContainer}>
-      <NavBar />
-      <Frame />
-      <ListFilms />
+      {/*<NavBar />*/}
+      {/*<Frame />*/}
+      <Carrossel className='carousel-container'/>
     </div>
   )
 }

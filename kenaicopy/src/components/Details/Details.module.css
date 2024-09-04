@@ -1,0 +1,38 @@
+.detail{
+    width: 312px;
+    height: 168px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.detail h1{
+    padding: 0, 10px;
+    padding-left: 0;
+    text-align: left;
+    width: 153px;
+    height: 54px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54.47px;
+}
+.detail p{
+    margin-top: 20px;
+    width: 312px;
+    height: 168px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.detail button{
+    width: 312px;
+    height: 42px;
+    Gap: 10px;
+    padding: 10px, 40px;
+    background-color: #FFA634;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 600px;
+}

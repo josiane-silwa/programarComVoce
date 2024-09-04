@@ -3,12 +3,12 @@ import RatingReview from '../RatingReview'
 import { FaClock } from 'react-icons/fa'
 import styles from './Info.module.css'
 
-const Info = () => {
+const Info = (props) => {
 
   return (
     <div>
       <div className={styles.infoClassificacao}>
-        <p>Classificacao</p>
+        <p>{props.props.classificacao}</p>
       </div>
       <div className={styles.infoRating}>
         <RatingReview />
