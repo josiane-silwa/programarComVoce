@@ -1,13 +1,14 @@
 import React from 'react'
 import Users from '../Users'
 import Header from '../../components/Header'
+//import NavBar from '../../components/NavBar/NavBar'
+import './Perfil.module.css'
+import NavBar from '../../components/NavBar/NavBar'
 
 const Perfil = () => {
   return (
     <div>
-      <h2>Perfil</h2>
-      <Header />
-      <Users />
+      <NavBar />
     </div>
   )
 }

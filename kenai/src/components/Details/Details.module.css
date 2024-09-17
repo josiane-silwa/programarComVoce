@@ -3,23 +3,26 @@
     height: 168px;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     color: #FFFFFF;
     margin-left: 10px;
+    text-shadow: 2px 2px #2b2727;
 }
 .detail h1{
     padding: 0, 10px;
     padding-left: 0;
     text-align: left;
-    width: 153px;
+    width: 173px;
     height: 54px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
     font-size: 40px;
     font-weight: 600;
     line-height: 54.47px;
 }
 .detail p{
     margin-top: 20px;
+    margin-left: 10px;
     width: 312px;
     height: 168px;
     font-size: 16px;
@@ -36,6 +39,6 @@
     font-size: 16px;
     line-height: 21.79px;
     font-weight: 600px;
-    margin-top: 30px;
-    margin-left: 15px;
+    margin-top: 16px;
+    margin-left: 12px;
 }

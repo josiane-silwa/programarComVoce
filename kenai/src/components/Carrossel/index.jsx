@@ -20,7 +20,7 @@ const index = () => {
         }}>
           <div style={{
                     width: '400px',
-                    backgroundColor: '#fff',
+                    backgroundColor: 'black',
                     padding: '20px'
                 }}>
             <CarouselThumbs images={productImages}/>

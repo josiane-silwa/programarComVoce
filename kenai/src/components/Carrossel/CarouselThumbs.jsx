@@ -6,8 +6,11 @@ import { Navigation, Thumbs } from 'swiper/modules'
 import { useState } from 'react'
 import Frame from '../Frame'
 import Info from '../Info'
-import NavBar from '../NavBar'
+import NavBar from '../NavBar/NavBar'
 import Details from '../Details'
+import Header from '../Header'
+import InfoThumbs from '../InfoThumbs/index'
+import RatingReview from '../RatingReview'
 
 const CarouselThumbs = ({images}) => {
   console.log(images)
@@ -36,12 +39,13 @@ const CarouselThumbs = ({images}) => {
                         //width: '120px',
                         backgroundSize: 'contain',
                         backgroundRepeat: 'no-repeat',
-                        backgroundImage: `url(${item.img})` 
+                        backgroundImage: `linear-gradient(black, black), url(${item.img})`, 
+                        backgroundBlendMode: 'exclusion',
                     }}
                 >
-                    <div className='blur'>
+                    <div >
                         {console.log(item.img)}
-                        <NavBar />
+                        <Header />
                         <Info props={item}/>
                         <Details props={item}/>
                         {/*<img src={item.img} alt="product images" />*/}
@@ -61,8 +65,13 @@ const CarouselThumbs = ({images}) => {
         {
             images.map((item) => (
                 <SwiperSlide key={item.id}>
-                    <div className="product-images-slider-thumbs-wrapper">
+                    <div    className="product-images-slider-thumbs-wrapper">
                         <img src={item.img} alt="product images" />
+                        <div className='infoThumbs'>
+                            <p>{item.classificacao}</p>
+                            <p>{item.title}</p>
+                            <RatingReview />
+                        </div>
                     </div>
                 </SwiperSlide>
             ))
