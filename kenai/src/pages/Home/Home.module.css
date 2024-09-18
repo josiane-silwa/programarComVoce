@@ -3,3 +3,9 @@
     margin: auto;
     background-color: black;
 }
+
+@media (max-width:768px) {
+    .container{
+        max-width: 768px;
+    }   
+}

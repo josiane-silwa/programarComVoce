@@ -13,7 +13,7 @@ import InfoThumbs from '../InfoThumbs/index'
 import RatingReview from '../RatingReview'
 
 const CarouselThumbs = ({images}) => {
-  console.log(images)
+  //console.log(images)
   const [activeThumb, setActiveThumb] = useState()
   
   return (
@@ -44,7 +44,7 @@ const CarouselThumbs = ({images}) => {
                     }}
                 >
                     <div >
-                        {console.log(item.img)}
+                        {/*console.log(item.img)*/}
                         <Header />
                         <Info props={item}/>
                         <Details props={item}/>

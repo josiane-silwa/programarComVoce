@@ -5,8 +5,12 @@ import 'swiper/css/thumbs'
 import CarouselThumbs from "./CarouselThumbs"
 import { productImages } from '../../assets/'
 import React from 'react'
+import './CarouselThumbs.css'
 
 const index = () => {
+
+  const larguraTela = window.innerWidth;
+  //console.log(larguraTela)
 
   return (
         <div style={{
@@ -18,7 +22,8 @@ const index = () => {
           justifyContent: 'center',
           margin: 'auto'
         }}>
-          <div style={{
+          <div className='divCaroussel' 
+          style={{
                     width: '400px',
                     backgroundColor: 'black',
                     padding: '20px'

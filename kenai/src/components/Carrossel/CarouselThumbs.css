@@ -1,3 +1,9 @@
+.divCaroussel{
+    width: '400px';
+    background-color: 'black';
+    padding: '20px';
+}
+
 .product-images-slider .foto{     
     overflow: hidden;
     position: relative;
@@ -49,3 +55,14 @@
     opacity: 50%;
 }
     
+@media (max-width:768px) {
+    .product-images-slider .foto{
+        width: 768px;
+        border: 1px solid red;
+    }   
+    .divCaroussel{
+        width: '768px';
+        background-color: 'black';
+        padding: '20px';
+    }
+}

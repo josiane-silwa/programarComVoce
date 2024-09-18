@@ -11,3 +11,9 @@
 .carousel-container{
     background-color: black;
 }
+
+@media (max-width:768px) {
+    .mainContainer{
+        max-width: 768px;
+    }   
+}
